@@ -1,0 +1,41 @@
+
+body {
+    font-family: Arial;
+    background: white;
+}
+
+.contenedor {
+    border: 2px solid #333;
+    border-radius: 12px;
+    padding: 40px;
+    margin: 20px;
+}
+
+h1 {
+    color: #222;
+}
+
+input, select {
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+button {
+    padding: 15px 25px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+button:disabled {
+    opacity: 0.5;
+}
+
+#resultado {
+    color: green;
+}
